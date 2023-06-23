@@ -1,6 +1,6 @@
 # Checkpoint 02 - Programação Orientada a Objetos
 
-#Livraria
+# Tema: Minha Livraria
 
 O objetivo deste checkpoint é utilizar conceitos de orientação a objetos apresentados durante o bimestre. 
 
