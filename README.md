@@ -1,5 +1,7 @@
 # Checkpoint 02 - Programação Orientada a Objetos
 
+#Livraria
+
 O objetivo deste checkpoint é utilizar conceitos de orientação a objetos apresentados durante o bimestre. 
 
 ## Aprendizados
@@ -12,4 +14,4 @@ Durante o Checkpoint II, foram explorados diversos conceitos fundamentais da pro
 
 ## UML
 
-![UML](https://drive.google.com/file/d/1iRsuirbZz26KlFNAkg0ot6ySbOgA6K8P/view?usp=sharing)
+![UML](https://github.com/claudiojuniorr/poo-checkpoint-ii/blob/main/docs/POO%20-%20Checkpoint%20II.jpg)
