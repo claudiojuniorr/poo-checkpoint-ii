@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-06-23T17:51:47.697Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="UZbXXgAtXB_AOKIL2dkS" version="21.5.0" type="device">
+<mxfile host="Electron" modified="2023-06-25T19:40:21.404Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.5.0 Chrome/112.0.5615.204 Electron/24.5.1 Safari/537.36" etag="RWV2WqxiNSrvjUF_wrl_" version="21.5.0" type="device">
   <diagram name="Página-1" id="rN2LJihnUFl8Uy325QJz">
-    <mxGraphModel dx="1978" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1805" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,22 +14,25 @@
           <mxGeometry y="120" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-5" value="Cliente" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="703" y="270" width="200" height="80" as="geometry" />
+          <mxGeometry x="703" y="270" width="280" height="130" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-6" value="- nome: String&lt;br&gt;- telefone: String&lt;br&gt;- endereco: Endereco" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oC-QnKjkfsPwuS0FO-7s-5" vertex="1">
-          <mxGeometry y="26" width="200" height="54" as="geometry" />
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="_bN_iuHhjXmmA_dXDeQq-1" value="+&amp;nbsp;atualizarInformacoesCliente(scanner: Scanner, clientes: List&amp;lt;Cliente&amp;gt;, nomeCliente: Cliente): void" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="oC-QnKjkfsPwuS0FO-7s-5">
+          <mxGeometry y="80" width="280" height="50" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-9" value="Funcionario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-101" y="278" width="200" height="142" as="geometry" />
+          <mxGeometry x="-170" y="270" width="270" height="160" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-10" value="- nome: String&lt;br&gt;- telefone: String&lt;br&gt;- cargo: String&lt;br&gt;- salario: Double&lt;br&gt;- endereco: Endereco" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oC-QnKjkfsPwuS0FO-7s-9" vertex="1">
-          <mxGeometry y="26" width="200" height="84" as="geometry" />
+          <mxGeometry y="26" width="270" height="84" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="oC-QnKjkfsPwuS0FO-7s-9" vertex="1">
-          <mxGeometry y="110" width="200" height="8" as="geometry" />
+          <mxGeometry y="110" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="oC-QnKjkfsPwuS0FO-7s-12" value="+ realizarVenda(livro: Livro): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oC-QnKjkfsPwuS0FO-7s-9" vertex="1">
-          <mxGeometry y="118" width="200" height="24" as="geometry" />
+        <mxCell id="oC-QnKjkfsPwuS0FO-7s-12" value="+ realizarVenda(tituloLivro: String, livros: List&amp;lt;Livro&amp;gt;): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oC-QnKjkfsPwuS0FO-7s-9" vertex="1">
+          <mxGeometry y="118" width="270" height="42" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-13" value="Ficcao" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="333" y="900" width="160" height="80" as="geometry" />
@@ -59,16 +62,16 @@
           <mxGeometry y="52" width="160" height="28" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-25" value="Livraria" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="260" width="314" height="210" as="geometry" />
+          <mxGeometry x="250" y="260" width="360" height="270" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-26" value="- nome: String&lt;br&gt;- endereco: Endereco&lt;br&gt;- telefone: String&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oC-QnKjkfsPwuS0FO-7s-25" vertex="1">
-          <mxGeometry y="26" width="314" height="64" as="geometry" />
+          <mxGeometry y="26" width="360" height="64" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="oC-QnKjkfsPwuS0FO-7s-25" vertex="1">
-          <mxGeometry y="90" width="314" height="8" as="geometry" />
+          <mxGeometry y="90" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="oC-QnKjkfsPwuS0FO-7s-28" value="+ adicionarLivro(livro: Livro): void&lt;br&gt;+ removerLivro(livro: Livro): void&lt;br&gt;+ listarLivros: void&lt;br&gt;+ contratarFuncionario(funcionario: Funcionario): void&lt;br&gt;+ demitirFuncionario(funcionario: Funcionario): void&lt;br&gt;+ listarFuncionarios(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oC-QnKjkfsPwuS0FO-7s-25" vertex="1">
-          <mxGeometry y="98" width="314" height="112" as="geometry" />
+        <mxCell id="oC-QnKjkfsPwuS0FO-7s-28" value="&lt;div&gt;+ cadastrarLivro(scanner: Scanner, livros: List&amp;lt;Livro&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ removerLivro(scanner: Scanner, livros: List&amp;lt;Livro&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ listarLivros(livros: List&amp;lt;Livro&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ cadastrarFuncionario(scanner: Scanner, funcionarios: List&amp;lt;Funcionario&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ demitirFuncionario(scanner: Scanner, funcionarios: List&amp;lt;Funcionario&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ listarFuncionarios(funcionarios: List&amp;lt;Funcionario&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ cadastrarCliente(scanner: Scanner, clientes: List&amp;lt;Cliente&amp;gt;): void&lt;/div&gt;&lt;div&gt;+ listarClientes(clientes: List&amp;lt;Cliente&amp;gt;): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="oC-QnKjkfsPwuS0FO-7s-25" vertex="1">
+          <mxGeometry y="98" width="360" height="172" as="geometry" />
         </mxCell>
         <mxCell id="oC-QnKjkfsPwuS0FO-7s-29" value="Romance" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="749" y="900" width="160" height="80" as="geometry" />
@@ -165,14 +168,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oC-QnKjkfsPwuS0FO-7s-56" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;exitX=0.514;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oC-QnKjkfsPwuS0FO-7s-28" target="oC-QnKjkfsPwuS0FO-7s-1" edge="1">
+        <mxCell id="oC-QnKjkfsPwuS0FO-7s-56" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;exitX=0.453;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="oC-QnKjkfsPwuS0FO-7s-28" target="oC-QnKjkfsPwuS0FO-7s-1" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="380" y="590" as="sourcePoint" />
             <mxPoint x="470" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-16" value="Endereco" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="333" width="160" height="110" as="geometry" />
+          <mxGeometry x="350" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-17" value="- rua: String&lt;br&gt;- numero: String&lt;br&gt;- cidade: String&lt;br&gt;- estado: String&lt;br&gt;- cep: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="TP7SuFMEwu7cWY-4JSte-16" vertex="1">
           <mxGeometry y="26" width="160" height="84" as="geometry" />
@@ -184,60 +187,60 @@
           <mxGeometry x="115" y="318" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-22" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="425" y="478" width="30" height="30" as="geometry" />
+          <mxGeometry x="425" y="530" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-23" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="425" y="598" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-24" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="564" y="288" width="30" height="30" as="geometry" />
+          <mxGeometry x="608" y="288" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-25" value="*" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="673" y="288" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TP7SuFMEwu7cWY-4JSte-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=-0.075;exitY=1.077;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="TP7SuFMEwu7cWY-4JSte-28" edge="1">
+        <mxCell id="TP7SuFMEwu7cWY-4JSte-26" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=-0.075;exitY=1.077;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="TP7SuFMEwu7cWY-4JSte-28" edge="1" target="TP7SuFMEwu7cWY-4JSte-17">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="820" y="287.5999999999999" as="sourcePoint" />
-            <mxPoint x="495" y="78" as="targetPoint" />
+            <mxPoint x="540" y="78" as="targetPoint" />
             <Array as="points">
               <mxPoint x="695" y="78" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-27" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="495" y="18" width="30" height="30" as="geometry" />
+          <mxGeometry x="510" y="48" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-28" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="825" y="238" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TP7SuFMEwu7cWY-4JSte-29" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.457;entryY=1.044;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oC-QnKjkfsPwuS0FO-7s-25" target="TP7SuFMEwu7cWY-4JSte-17" edge="1">
+        <mxCell id="TP7SuFMEwu7cWY-4JSte-29" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=0.496;entryY=1.041;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="oC-QnKjkfsPwuS0FO-7s-25" target="TP7SuFMEwu7cWY-4JSte-17" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="460" y="290" as="sourcePoint" />
             <mxPoint x="407" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-30" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="410" y="144" width="30" height="30" as="geometry" />
+          <mxGeometry x="425" y="120" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-31" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="410" y="220" width="30" height="30" as="geometry" />
+          <mxGeometry x="425" y="230" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-32" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="oC-QnKjkfsPwuS0FO-7s-9" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="180" y="340" as="sourcePoint" />
-            <mxPoint x="330" y="80" as="targetPoint" />
+            <mxPoint x="350" y="80" as="targetPoint" />
             <Array as="points">
               <mxPoint x="150" y="80" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-33" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="305" y="48" width="30" height="30" as="geometry" />
+          <mxGeometry x="320" y="48" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TP7SuFMEwu7cWY-4JSte-34" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-15" y="248" width="30" height="30" as="geometry" />
+          <mxGeometry x="-70" y="238" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TP7SuFMEwu7cWY-4JSte-35" value="&lt;h1 style=&quot;text-align: justify;&quot;&gt;Livraria&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Considerando um sistema de gestão para uma livraria. Nesse sistema, temos a Livraria, que possui atributos como nome, endereço e telefone, e é responsável pelo gerenciamento dos livros em estoque, dos funcionários e dos clientes. Os Livros são representados por atributos como título, autor, ano de publicação, valor e quantidade em estoque, sendo armazenados na livraria. Os clientes possuem atributos como nome, telefone e endereço, podendo realizar compras na livraria. Os funcionários têm atributos como nome, endereço, cargo e salário, desempenhando diversas funções na livraria, como atendimento ao cliente e gestão administrativa.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="TP7SuFMEwu7cWY-4JSte-35" value="&lt;h1 style=&quot;text-align: justify;&quot;&gt;Livraria&lt;/h1&gt;&lt;p style=&quot;text-align: justify;&quot;&gt;Considerando um sistema de gestão para uma livraria. Nesse sistema, temos a Livraria, que possui atributos como nome, endereço e telefone, e é responsável pelo gerenciamento dos livros em estoque, dos funcionários e dos clientes. Os Livros são representados por atributos como título, autor, ano de publicação, valor e quantidade em estoque, sendo armazenados na livraria. Os clientes possuem atributos como nome, telefone e endereço. Os funcionários têm atributos como nome, endereço, cargo e salário, os funcionários realizam a venda dos livros.&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-207.5" y="520" width="415" height="210" as="geometry" />
         </mxCell>
       </root>
