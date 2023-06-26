@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Criação da livraria
-        Livraria livraria = new Livraria("Minha Livraria", new Endereco("Rua A", "123", "Campina Grande", "PB", "00000-000"), "123456789");
+        Livraria livraria = new Livraria("Minha Livraria", new Endereco("Rua Pedrina Maria da Silva", "123", "Campina Grande", "PB", "78717-651"), "123456789");
 
         // Listas para armazenar funcionários, livros e clientes
         List<Funcionario> funcionarios = new ArrayList<>();
@@ -16,17 +16,17 @@ public class Main {
         List<Cliente> clientes = new ArrayList<>();
 
         // Criando quatro funcionários
-        Endereco enderecoFuncionario1 = new Endereco("Rua A", "123", "Cidade A", "Estado A", "11111-111");
-        Funcionario funcionario1 = new Funcionario("João", "111111111", enderecoFuncionario1, "Vendedor", 2000.0);
+        Endereco enderecoFuncionario1 = new Endereco("Rua Sargento Benevides Monte", "123", "Rio de Janeiro", "RJ", "21520-440");
+        Funcionario funcionario1 = new Funcionario("João", "(96) 3770-8548", enderecoFuncionario1, "Vendedor", 2000.0);
 
-        Endereco enderecoFuncionario2 = new Endereco("Rua B", "456", "Cidade B", "Estado B", "22222-222");
-        Funcionario funcionario2 = new Funcionario("Maria", "222222222", enderecoFuncionario2, "Atendente", 1800.0);
+        Endereco enderecoFuncionario2 = new Endereco("Rua Arapongas", "456", "Dourados", "MS", "79813-210");
+        Funcionario funcionario2 = new Funcionario("Maria", "(79) 3042-8757", enderecoFuncionario2, "Atendente", 1800.0);
 
-        Endereco enderecoFuncionario3 = new Endereco("Rua C", "789", "Cidade C", "Estado C", "33333-333");
-        Funcionario funcionario3 = new Funcionario("Pedro", "333333333", enderecoFuncionario3, "Gerente", 3000.0);
+        Endereco enderecoFuncionario3 = new Endereco("Rua Francisco Benedito de Almeida", "789", "Guarapari", "ES", "29200-060");
+        Funcionario funcionario3 = new Funcionario("Pedro", "(86) 3852-4657", enderecoFuncionario3, "Gerente", 3000.0);
 
-        Endereco enderecoFuncionario4 = new Endereco("Rua D", "987", "Cidade D", "Estado D", "44444-444");
-        Funcionario funcionario4 = new Funcionario("Ana", "444444444", enderecoFuncionario4, "Estoquista", 1500.0);
+        Endereco enderecoFuncionario4 = new Endereco("Travessa Alto da Bela Vista", "987", "Aracaju", "SE", "49072-383");
+        Funcionario funcionario4 = new Funcionario("Ana", "(95) 3254-1802", enderecoFuncionario4, "Estoquista", 1500.0);
 
         // Adicionando funcionários à lista
         funcionarios.add(funcionario1);
@@ -47,17 +47,17 @@ public class Main {
         livros.add(livro4);
 
         // Criando quatro clientes
-        Endereco enderecoCliente1 = new Endereco("Rua X", "111", "Cidade X", "Estado X", "55555-555");
-        Cliente cliente1 = new Cliente("Fulano", "555555555", enderecoCliente1);
+        Endereco enderecoCliente1 = new Endereco("Rua Onze", "111", "Gravatá", "PE", "55643-563");
+        Cliente cliente1 = new Cliente("Helgur", "(27) 2826-6764", enderecoCliente1);
 
-        Endereco enderecoCliente2 = new Endereco("Rua Y", "222", "Cidade Y", "Estado Y", "66666-666");
-        Cliente cliente2 = new Cliente("Ciclano", "666666666", enderecoCliente2);
+        Endereco enderecoCliente2 = new Endereco("Rua Francisco Edilson da Silva", "222", "Fortaleza", "CE", "60534-005");
+        Cliente cliente2 = new Cliente("Finte", "(63) 3851-6262", enderecoCliente2);
 
-        Endereco enderecoCliente3 = new Endereco("Rua Z", "333", "Cidade Z", "Estado Z", "77777-777");
-        Cliente cliente3 = new Cliente("Beltrano", "777777777", enderecoCliente3);
+        Endereco enderecoCliente3 = new Endereco("Rua Novo Oriente", "333", "Feira de Santana", "BA", "44059-630");
+        Cliente cliente3 = new Cliente("Agduihae", "(33) 2152-4409", enderecoCliente3);
 
-        Endereco enderecoCliente4 = new Endereco("Rua W", "444", "Cidade W", "Estado W", "88888-888");
-        Cliente cliente4 = new Cliente("Sicrano", "888888888", enderecoCliente4);
+        Endereco enderecoCliente4 = new Endereco("Rua Major Marcelo Menezes", "444", "Recife", "PE", "50690-130");
+        Cliente cliente4 = new Cliente("Reha", "(64) 3238-5222", enderecoCliente4);
 
         // Adicionando clientes à lista
         clientes.add(cliente1);
