@@ -238,7 +238,7 @@ public class Livraria {
             System.out.println("Cliente " + contador + "\n");
             System.out.println("Nome: " + cliente.getNome());
             System.out.println("Telefone: " + cliente.getTelefone());
-            System.out.println("Endereço: " + cliente.getEndereco().getRua() + ", " + cliente.getEndereco().getNumero() + ", " + cliente.getEndereco().getCidade());
+            System.out.println("Endereço: " + cliente.getEndereco().getRua() + ", " + cliente.getEndereco().getNumero() + ", " + cliente.getEndereco().getCidade() + " - " + cliente.getEndereco().getEstado());
             System.out.println("===========================");
         }
     }
